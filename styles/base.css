@@ -2,14 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: "Lilex", monospace;
   
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
 }
 
 #course-title {
     padding: 10px;
     display: block;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(38, 37, 37);
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -49,7 +54,7 @@ main {
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 2rem;
-  width: 70rem;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -76,22 +81,22 @@ h2 {
 
 .flag {
   height: auto;
-  width: 200px;
+  width: 190px;
 }
 
 .personal {
-  width: 600px;
+  width: 85%;
 }
 
 .card-flag {
   
-  width: 200px;
-  margin: 10px;
+  width: 35%;
+  margin: 1rem;
+  padding: 1rem;
   float: left;
 }
 p {
-  margin: 15px;
-  letter-spacing: 1px;
+  margin: 0px;
 }
 
 h3 {
@@ -110,7 +115,7 @@ h3 {
 }
 
 footer {
-  margin-top: 4rem;
+  margin-top: 1rem;
   padding: 1rem;
   text-align: center;
   display: block;
