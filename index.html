@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing - WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Nathan Javier</title>
+    <meta name="author" content="Nathan Javier">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Nathan Javier - My personal landing page.">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD131 - Nathan Javier</h1>
+  <header>
+    <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+    
+
+    <nav>
+      <a href="https://www.linkedin.com/in/nathan-javier27" target="_blank">LinkedIn</a>
+      <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng" target="_blank">Scripture</a>
+      <a href="#">Final Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nathan Javier</h1>
+
+    <section class="card">
+      <h2>About me</h2>
+      <img class="my-picture" src="images/mylife.jpg" alt="me and my wife">
+      <div class="personal">
+        <p> My name is Nathan, originally from the Philippines. 
+        I am happily married and a proud father of one son. 
+        I am currently working in Japan and continuously striving 
+        to improve myself by learning more about modern technologies. 
+        I enjoy expanding my knowledge and staying up to date with new advancements.
+        </p>
+        <h3>Philippines</h3>
+        <div class="card-flag">
+          
+          <img class="flag" src="images/Flag_of_the_Philippines.png" alt="flag">
+        </div>
+        <p>The Philippines is a Southeast Asian country made up of over 7,600 islands, 
+        with Manila as its capital and Quezon City as its largest city. 
+        It has a population of around 114 million people who speak Tagalog and English, 
+        along with many regional languages.</p>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Web Development Resources</h2>
+      <ul>
+        <li>
+          <a href="https://www.learn-html.org" target="_blank">Learn-Html</a>
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/html" target="_blank">w3schools</a>
+        </li>
+        <li>
+          <a href="https://www.freecodecamp.org/news/learn-html-beginners-course" target="_blank">freeCodecamp</a>
+        </li>
+      </ul>
+
+    </section>
+      
+  </main>
+
+
+  <footer>
+    <p>© <span id="currentYear"></span> | Nathan Javier | Philippines</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>

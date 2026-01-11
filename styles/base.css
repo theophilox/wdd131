@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif
+  
+}
+
+#course-title {
+    padding: 10px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+nav {
+  background: rgb(26, 0, 113);
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+nav a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    background-color: rgb(25, 13, 65);
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  grid-column: 2 span;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 2rem;
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 6px;
+  border: 1px solid black;
+  
+}
+
+h2 {
+  color: white;
+  background-color: rgb(26, 0, 113);
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.my-picture {
+  height: 150px;
+  width: auto;
+  margin-right: 15px;
+  float: right;
+}
+
+.flag {
+  height: auto;
+  width: 200px;
+}
+
+.personal {
+  width: 600px;
+}
+
+.card-flag {
+  
+  width: 200px;
+  margin: 10px;
+  float: left;
+}
+p {
+  margin: 15px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  text-align: center;
+  margin: 15px;
+}
+
+.about-me {
+  margin: 0;
+  align-items: center;
+  height: 180px;
+}
+
+.card ul {
+  margin-left: 40px;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  background-color: rgb(26, 0, 113);
+  color: white;
+}
