@@ -39,7 +39,7 @@ header p {
 nav a:hover {
 	text-decoration: underline overline rgb(143, 137, 137);
 	background-color: #84674d;
-	color: #ffffff; 
+	color: white; 
     
 }
 
@@ -97,7 +97,7 @@ footer {
 #menu {
 	font-size: 1.5rem;
 	background: none;
-	color: #000;
+	color: black;
  	position: absolute;
 	top: 1rem;
 	left: 1rem;
