@@ -43,6 +43,7 @@ nav a:hover {
     
 }
 
+
 .navigation {
 	display: flex;
 	flex-direction: column;
@@ -112,7 +113,15 @@ footer {
 
 @media screen and (min-width: 700px) {
 
+    nav {
+
+        
+        display: flex;
+        justify-content: space-evenly;
+        }
+
     .navigation {
+        width: 100%;
         flex-direction: row;
     }
     
