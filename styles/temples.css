@@ -27,6 +27,9 @@ header p {
     font-size: xx-large;
 }   
 
+nav { 
+    display: flex;
+}
 
 .navigation a {
     display: none;
@@ -114,8 +117,6 @@ footer {
 @media screen and (min-width: 700px) {
 
     nav {
-
-        
         display: flex;
         justify-content: space-evenly;
         }
