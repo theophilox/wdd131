@@ -74,7 +74,7 @@ figure {
 }
 
 figure img {
-    height: 130px;
+    height: 200px;
     width: auto;
 }
 
@@ -144,6 +144,12 @@ footer {
     padding: 1rem;
     margin: 0 auto;
     color: black;
+    }
+
+    figure img {
+
+        height: 130px;
+        width: auto;
     }
 
 
