@@ -116,12 +116,15 @@ footer {
 
     nav {
         display: flex;
-        justify-content: space-evenly;
-        }
+        justify-content: center;
+        width: 100%;
+    }
 
     .navigation {
+        display: flex;
+        flex-direction: row;     
+        justify-content: space-evenly;
         width: 100%;
-        flex-direction: row;
     }
     
     .navigation a {
