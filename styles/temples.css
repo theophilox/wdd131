@@ -27,10 +27,6 @@ header p {
     font-size: xx-large;
 }   
 
-nav { 
-    display: flex;
-}
-
 .navigation a {
     display: none;
     text-align: center;
@@ -45,9 +41,12 @@ nav a:hover {
     
 }
 
+nav {
+    display: flex;
+}
 
 .navigation {
-	display: flex;
+	width: 100%;
 	flex-direction: column;
 	justify-content: space-evenly;
     list-style: none;
