@@ -40,9 +40,8 @@ nav {
 }
 
 nav a:hover {
-	text-decoration: underline overline rgb(143, 137, 137);
-	background-color: #84674d;
-	color: white; 
+	text-decoration: underline overline;
+	background-color:bisque;
     
 }
 
