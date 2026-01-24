@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,440..540;1,6..12,200..1000,440..540&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <h1>Australia, Perth</h1>
+
+    </header>
+
+    <main>
+         <div class="hero">
+
+            <picture>
+                <source srcset="images/au-perth-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/au-perth-small.webp" media="(min-width: 500px)">
+                <img src="images/au-perth-small.webp" alt="Australia, Perth Dream place" width="500" height="250">
+            </picture>
+        </div>
+        <div class="data-container">
+
+            <div class="title">
+                <h2>Data</h2>
+            </div>
+        
+            <p><strong>Area:</strong> 6,418 km²</p>
+            <p><strong>Population:</strong> 2.2 million people</p>
+            <p><strong>Capital:</strong> Perth is the capital of Western Australia</p>	
+            <p><strong>Languages:</strong> English and many community languages spoken</p>	
+            <p><strong>Currency:</strong> Australian Dollar (AUD)</p>	
+            <p><strong>Time-zone:</strong> (UTC +8)</p>
+            <p><strong>Calling Code:</strong> +61</p>	
+            <p><strong>Internet TLD:</strong> .au</p>	
+
+        </div>
+
+        <div class="weather-container">
+
+            <div class="title">
+                <h2>Weather</h2>
+                
+                <img src="images/weather_icon-mobile-view.svg" alt="weather icon sunny">
+                <span class="weather-emoji">⛅</span>
+            </div>
+
+            <p><strong>Temperature:</strong> ~22°C</p>
+            <p><strong>Conditions:</strong> Sunny / clear skies</p>
+            <p><strong>Wind:</strong> Light breeze</p>	
+            <p><strong>Wind Chill:</strong> ~22°C-24°C — feels warm and pleasant</p>	
+           	           	
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> | Nathan Javier | Philippines</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+
+    </footer>
+    
+</body>
+</html>

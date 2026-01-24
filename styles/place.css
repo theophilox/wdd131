@@ -1,0 +1,139 @@
+:root {
+    --color-bg-header: bisque;
+    --color-bg-main: antiquewhite;
+    --color-bg-footer: rgb(102, 92, 80);
+    --color-border: rgb(65, 59, 51);
+    --color-title-bg: rgb(76, 243, 187);
+    --color-text-footer: white; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    background-color:bisque;
+    padding: 1rem;
+}
+
+header {    
+    padding: 1rem;
+    
+}
+
+h1 {
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+
+.data-container {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid rgb(65, 59, 51);
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    
+
+}
+
+.weather-container {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid rgb(65, 59, 51);
+    border-radius: 1rem;
+    background-color: antiquewhite;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 5px 15px 5px;
+    justify-content: center;
+}
+
+.title span {
+    display: none;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+
+}
+
+footer {
+    background-color: rgb(65, 59, 51);
+    color: white;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 700px) { 
+
+    .data-container {
+        position: absolute;
+        top: 470px;
+        left: 10px;
+        opacity: 0.5;
+        border-radius: 0px;
+        border: 0px;
+    }
+
+    .weather-container {
+        position: absolute;
+        top: 150px;
+        right: 10px;
+        opacity: 0.5;
+        border-radius: 0px;
+        border: 0px;
+    }
+
+    .title {
+        padding: 5px;
+        background-color: rgb(76, 243, 187);
+    }
+
+    .title img {
+        display: none;
+    }
+
+    .weather-emoji {
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: middle;
+    margin-left: 8px;    
+    }
+
+    .data-container:hover {
+        opacity: 1;
+    }
+
+    .weather-container:hover {
+        opacity: 1;
+    }
+
+
+}
