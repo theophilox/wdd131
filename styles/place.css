@@ -116,15 +116,6 @@ footer {
         border: 0px;
     }
 
-    .title {
-        padding: 5px;
-        background-color: rgb(76, 243, 187);
-    }
-
-    .title-weather {
-        padding: 5px;
-        background-color: rgb(76, 243, 187);
-    }
 
     .title-weather img {
         display: none;
