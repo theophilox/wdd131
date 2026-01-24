@@ -74,11 +74,16 @@ h1 {
     justify-content: center;
 }
 
-.title span {
-    display: none;
+
+.title-weather {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 5px 15px 5px;
+    justify-content: center;
 }
 
-.title img {
+.title-weather img {
     width: 50px;
     height: 50px;
 
@@ -116,15 +121,20 @@ footer {
         background-color: rgb(76, 243, 187);
     }
 
-    .title img {
+    .title-weather {
+        padding: 5px;
+        background-color: rgb(76, 243, 187);
+    }
+
+    .title-weather img {
         display: none;
     }
 
-    .weather-emoji {
-    display: inline-block;
-    font-size: 50px;
-    vertical-align: middle;
-    margin-left: 8px;    
+    .title-weather h2::after {
+        content: " ⛅";
+        font-size: 50px;
+        vertical-align: middle; 
+        margin-left: 0.5rem;    
     }
 
     .data-container:hover {
