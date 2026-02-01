@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Sample</title>
+    <meta name="author" content="Nathan Javier">
+    <meta name="description" content="Learning how to use lazy loading in a website.">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Lazy Loading</h1>
+        <picture>
+            <img src="images/picture-1.jpg" alt="sample picture number 1" loading="lazy" width="400" height="600">
+        </picture>
+        <picture><img src="images/picture-2.jpg" alt="sample picture number 1" loading="lazy" width="400" height="600">
+        </picture>
+        <picture><img src="images/picture-3.jpg" alt="sample picture number 1" loading="lazy" width="400" height="600">
+        </picture>
+        <picture><img src="images/picture-4.jpg" alt="sample picture number 1" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/picture-5.jpg" alt="sample picture number 1" loading="lazy" width="400" height="600">
+        </picture>
+        <picture><img src="images/picture-6.jpg" alt="sample picture number 1" loading="lazy" width="400" height="600">
+        </picture>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> | Nathan Javier | Philippines</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+
+    </footer>
+    
+</body>
+</html>
