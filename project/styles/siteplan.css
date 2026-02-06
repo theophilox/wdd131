@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Alegreya", serif;
     background-color: #f0f6ff;
-        color: #0a2540;
+    color: #0a2540;
 }
 
 header {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: #1e3c72;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -14,7 +14,7 @@ header {
 
 nav {
     margin-top: 15px;
-}
+    }
 
 nav a {
     color: white;
@@ -34,7 +34,7 @@ section {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
+}
 
 h2 {
     color: #2a5298;
@@ -46,5 +46,4 @@ footer {
     background-color: #1e3c72;
     color: white;
     margin-top: 40px;
-    }
-        
+}
