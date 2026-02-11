@@ -27,8 +27,7 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-form div,
-fieldset {
+form div {
     margin-bottom: 1.2rem;
     margin-top: 1rem;
 }
