@@ -48,10 +48,6 @@ textarea {
     font-size: 1rem;
 }
 
-legend {
-    font-weight: bold;
-}
-
 input[type="radio"],
 input[type="checkbox"] {
     margin-right: 7px;
