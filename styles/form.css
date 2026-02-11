@@ -30,6 +30,7 @@ main {
 form div,
 fieldset {
     margin-bottom: 1.2rem;
+    margin-top: 1rem;
 }
 
 label {
