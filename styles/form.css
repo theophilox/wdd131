@@ -48,16 +48,8 @@ textarea {
     font-size: 1rem;
 }
 
-
-fieldset {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 6px;
-}
-
 legend {
     font-weight: bold;
-    padding: 0 10px;
 }
 
 input[type="radio"],
