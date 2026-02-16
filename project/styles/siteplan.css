@@ -8,12 +8,32 @@ body {
 header {
     background: #1e3c72;
     color: white;
-    padding: 30px 20px;
-    text-align: center;
+    padding: 10px 20px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
 }
 
 nav {
-    margin-top: 15px;
+    margin-top: 0px;
     }
 
 nav a {
@@ -27,23 +47,124 @@ nav a:hover {
     text-decoration: underline;
 }
 
-section {
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+
+}
+
+.hamburger span {
+    width: 30px;
+    height: 3px;
+    background: white;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 2rem;    
     max-width: 900px;
     margin: 40px auto;
-    padding: 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-btn {
+  background: #1e3c72;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  margin-top: 2rem;
+}
+
+.prof-img {
+  border-radius: 10%;
+  border: 5px solid var(--primary);
 }
 
 h2 {
     color: #2a5298;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+button[type="submit"] {
+  background: #1e3c72;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     background-color: #1e3c72;
     color: white;
-    margin-top: 40px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 60px;
+    right: 1rem;
+    flex-direction: column;
+    background: #1e3c72;
+    padding: 2rem;
+    display: none;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .prof-img {
+    width: 250px;
+    height: 350px;
+  }
+
 }
