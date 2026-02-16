@@ -1,3 +1,5 @@
-const senderName = document.getElementById('name').value;
+document.getElementById("sendButton").addEventListener("click", function () {
+    const senderName = document.getElementById("name").value;
 
-    localStorage.setItem('senderName', senderName);
+    localStorage.setItem("userName", senderName); 
+});
