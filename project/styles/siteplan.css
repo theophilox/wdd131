@@ -8,39 +8,31 @@ body {
 header {
     background: #1e3c72;
     color: white;
-    padding: 10px 20px;
+    padding: 0.5rem 0.5rem;
 }
 
-header div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1 {
-    margin: 0px;
-}
-
-ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    align-items: center;
-}
-
-ul a {
-    text-decoration: none;
-}
 
 nav {
-    margin-top: 0px;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1px;
+    right: 1px;
 }
 
 nav a:hover {
@@ -48,29 +40,28 @@ nav a:hover {
 }
 
 
-.hamburger {
+h1 {
+    margin: 0px;
+}
+
+#menu {
     display: none;
     flex-direction: column;
     gap: 5px;
     background: none;
     border: none;
     cursor: pointer;
-    position: absolute;
-    top: 1.2rem;
-    right: 1rem;
-
-}
-
-.hamburger span {
-    width: 30px;
-    height: 3px;
-    background: white;
 }
 
 main {
     width: 90%;
     max-width: 1200px;
     margin: auto;
+}
+
+.active {
+    font-weight: 600;
+    text-decoration: overline;
 }
 
 .hero {
@@ -127,7 +118,6 @@ button[type="submit"] {
 
 .project-card {
   border: 2px solid #1e3c72;
-  backdrop-filter: blur(10px);
   padding: 1.5rem;
   border-radius: 15px;
   transition: 0.3s;
@@ -139,11 +129,6 @@ button[type="submit"] {
   transform: translateY(-2px);
 }
 
-/* GRID */
-.project-grid {
-  display: grid;
-  gap: 2rem;
-}
 
 
 footer {
@@ -156,25 +141,44 @@ footer {
 
 @media screen and (max-width: 650px) {
 
-  .hamburger {
-    display: flex;
-  }
-
   nav ul {
+    display: none;
+    flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 1rem;
-    flex-direction: column;
+    right: 0;
     background: #1e3c72;
-    padding: 2rem;
-    display: none;
-    border-radius: 10px;
-    width: 80%;
+    width: 100%;
     text-align: center;
+    padding: 1rem 0;
   }
 
-  nav ul.active {
+  nav ul.show {
     display: flex;
+  }
+
+  nav ul li {
+    margin: 1rem 0;
+  }
+
+  #menu {
+    display: block;
+    font-size: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    background: none;
+    color: white;
+    border: none;
+  }
+
+
+  #menu::before {
+    content: "☰";
+  }
+
+  #menu.show::before {
+    content: "Ꭓ";
   }
 
   .hero {

@@ -8,9 +8,10 @@ currentYear.innerHTML = `<span>${today.getFullYear()}</span>`;
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
 
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.querySelector('nav ul');
+const hamburgerButton = document.querySelector("#menu");
+const navigation = document.querySelector("nav ul");
 
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+hamburgerButton.addEventListener("click", () => {
+	navigation.classList.toggle("show");
+	hamburgerButton.classList.toggle("show");
 });

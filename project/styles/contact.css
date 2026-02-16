@@ -64,31 +64,40 @@ main {
     text-decoration: overline;
 }
 
-h3 {
+h2 {
     color: #2a5298;
 }
 
-.project-card {
-  border: 2px solid #1e3c72;
-  padding: 1.5rem;
-  border-radius: 15px;
-  transition: 0.3s;
-  margin: 1rem 0;
-  text-align: center;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
 }
 
-.project-card:hover {
-  transform: translateY(-2px);
+input, textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+button[type="submit"] {
+  background: #1e3c72;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 8px;
 }
 
 
 
 footer {
+    position: absolute;
+    width: 100%;
     text-align: center;
     padding: 5px;
     background-color: #1e3c72;
     color: white;
-    margin-top: 1rem;
+    bottom: 1px;
 }
 
 @media screen and (max-width: 650px) {
@@ -132,6 +141,5 @@ footer {
   #menu.show::before {
     content: "Ꭓ";
   }
-
 
 }
